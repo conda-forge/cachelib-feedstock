@@ -18,9 +18,9 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >= 3.6
   run:
-    - python
+    - python >= 3.6
 
 test:
   imports:
@@ -34,7 +34,7 @@ about:
   home: https://github.com/pallets/cachelib
   summary: A collection of cache libraries in the same API interface.
   license: BSD-3-Clause
-  license_file: LICENSE
+  license_file: LICENSE.txt
 
 extra:
   recipe-maintainers:
