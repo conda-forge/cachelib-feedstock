@@ -1,5 +1,5 @@
 {% set name = "cachelib" %}
-{% set version = "0.1.1" %}
+{% set version = "0.2.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/cachelib-{{ version }}.tar.gz
-  sha256: 47e95a67d68c729cbad63285a790a06f0e0d27d71624c6e44c1ec3456bb4476f
+  sha256: dcb5fafe6b6b544aaa8d0cacb12d70bbf9bbf72c041f17fcad1618db7bedeada
 
 build:
   number: 0
@@ -18,9 +18,9 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
   run:
-    - python
+    - python >=3.6
 
 test:
   imports:
@@ -34,7 +34,7 @@ about:
   home: https://github.com/pallets/cachelib
   summary: A collection of cache libraries in the same API interface.
   license: BSD-3-Clause
-  license_file: LICENSE
+  license_file: LICENSE.rst
 
 extra:
   recipe-maintainers:
