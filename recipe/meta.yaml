@@ -1,5 +1,5 @@
 {% set name = "cachelib" %}
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/cachelib-{{ version }}.tar.gz
-  sha256: cc1856259f102c9273efa342100f70d9fafbd07b41ce05c501ee28e1dbbb5133
+  sha256: 1bfa8d7473509d4892241962d6b41ba1b55e64b6f57632478b29564e1f60ef8c
 
 build:
   number: 0
