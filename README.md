@@ -1,7 +1,7 @@
 About cachelib
 ==============
 
-Home: https://github.com/pallets/cachelib
+Home: https://github.com/pallets-eco/cachelib
 
 Package license: BSD-3-Clause
 
