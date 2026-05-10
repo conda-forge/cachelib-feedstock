@@ -37,7 +37,7 @@ about:
   home: https://github.com/pallets-eco/cachelib
   summary: A collection of cache libraries in the same API interface.
   license: BSD-3-Clause
-  license_file: LICENSE.rst
+  license_file: LICENSE.txt
 
 extra:
   recipe-maintainers:
