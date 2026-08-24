@@ -1,5 +1,5 @@
 {% set name = "cachelib" %}
-{% set version = "0.16.1" %}
+{% set version = "0.17.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/cachelib-{{ version }}.tar.gz
-  sha256: 597f1cba00e83b4a32d32504873367c253999a26a9ab32546a94766ff24c7a8b
+  sha256: f3c7dc8d3c1132ab699681ffdf8a52d341d9425ac1401c538cf0b1d87b1677c8
 
 build:
   number: 0
